@@ -14,6 +14,10 @@ app.use(cors())
 const userRoutes = require ('./routes/users.js');
 const taskRoutes = require('./routes/tasks.js');
 
+app.get("/", (req,res)=>{
+    res.send('Servidor rodando')
+})
+
 app.use("/usuarios", userRoutes);
 app.use("/tarefas", taskRoutes);
 
