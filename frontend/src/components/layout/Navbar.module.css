@@ -1,0 +1,51 @@
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background: #222;
+    padding: 1em;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.item{
+    margin-right: 1em;
+}
+
+.item a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.item a:hover{
+    color: #FFBB33;
+}
+
+.form_image img {
+    width: 100%;
+    margin-left: 3em;
+    max-width: 50px;
+}
+
+.userName {
+    color: #FFBB33;
+    font-weight: bold; 
+  }
+  
+.logout_button{
+ background: none;
+ border: none;
+ color: #FFF;
+ font-size: 12pt;
+ cursor: pointer;
+}
+
+.logout_button:hover{
+    color: #FFBB33;
+
+}
