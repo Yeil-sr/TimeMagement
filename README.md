@@ -84,7 +84,7 @@ Navegue até o diretório /frontend e instale as dependências:
 <ul>
   <p><code>GET /</code> - Lista os Tarefas. (Autenticado)</li>
   <p><code>POST /</code> - Cria um novo Usuário. (Autenticado)</li>
-   <p><code>POST /</code> -Login do Usuário. (</li>
+   <p><code>POST /</code> -Login do Usuário. </li>
   <p><code>PUT /:id</code> - Atualiza um Usuário pelo ID. (Autenticado)</p>
   <p><code>DELETE /:id</code> - Deleta um Usuário pelo ID. (Autenticado)</p>
 </ul>
