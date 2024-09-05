@@ -1,8 +1,10 @@
 const sqlite3 = require('sqlite3').verbose(); 
 const { open } = require('sqlite'); 
+const path = require('path');
+
 function openDb() {
   return open({
-    filename: './BizManager.db', 
+    filename: path.join(__dirname, 'BizManager.db'), 
     driver: sqlite3.Database 
   });
 }
