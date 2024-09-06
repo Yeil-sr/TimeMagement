@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { toast } from "react-toastify";
 import Grid from "./Grid";
-import styles from "./Form.module.css";
+import styles from "./TaskForm.module.css";
 
 const Form = ({ onEdit, setOnEdit }) => {
   const ref = useRef();
